@@ -14,7 +14,7 @@ public class EmailService {
 		try {
 			Email email = new SimpleEmail();
 			// Preencher com as informações do seu serviço de e-mail
-			email.setHostName("host do seu email");
+			email.setHostName("hostDoSeuEmail");
 			email.setSmtpPort(587);
 			email.setAuthenticator(new DefaultAuthenticator("seuemail@servico.com", "suaSenha"));
 			email.setStartTLSRequired(true);
